@@ -154,10 +154,11 @@ No data generation, model training, or Scania download is needed. The repository
 
 ### 1. Get the project and install dependencies
 
-Clone this repository after publication, or download and extract the source archive. Open PowerShell in the parent directory of the extracted `MedOps` folder:
+Clone the repository and install dependencies in PowerShell:
 
 ```powershell
-cd MedOps
+git clone https://github.com/Singh107/medops-sentinel.git
+cd medops-sentinel
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
