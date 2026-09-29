@@ -6,6 +6,8 @@ MedOps Sentinel is a service-intelligence prototype for exploring equipment work
 
 [Product walkthrough](#product-walkthrough) · [Methodology](#ml-problem--methodology) · [External reality check](#external-reality-check-scania-component-x) · [Run the demo](#run-the-frozen-demo)
 
+Check it out here: https://medops-sentinel.onrender.com
+
 ## Why I Built This
 
 Conversations about service-engineering workflows in the medical-device industry prompted a question: how can engineers make sense of accumulated work orders, subsystem failures, downtime, investigations, repairs, and replacements? I built MedOps to explore how those histories could support recurring-pattern review. The application was intentionally developed with synthetic operational records rather than private company or customer data.
