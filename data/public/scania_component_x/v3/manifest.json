@@ -1,0 +1,103 @@
+{
+  "dataset": "SCANIA Component X Dataset",
+  "version": 3,
+  "doi": "10.5878/bnh5-ka77",
+  "publisher": "Scania CV AB",
+  "repository": "Swedish National Data Service / Researchdata.se",
+  "source": "https://researchdata.se/en/catalogue/dataset/2024-34",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Lindgren, Steinert, Andersson Reyna, Kharazian, and Magnusson; Scania CV AB and Stockholm University.",
+  "download_date_utc": "2026-09-27T23:07:38.965987+00:00",
+  "files": [
+    {
+      "filename": "Scania_Component_X.pdf",
+      "relative_path": "documentation\\Scania_Component_X.pdf",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/documentation?filePath=Scania_Component_X.pdf",
+      "bytes": 3283883,
+      "sha256": "b8450509bc4b11c6a47a70e56cc37b4aaf1a40e6ebcaeef67477c79691123610",
+      "verified_at_utc": "2026-09-27T23:04:49.257364+00:00"
+    },
+    {
+      "filename": "2024_IDA_challenge_v2.pdf",
+      "relative_path": "documentation\\2024_IDA_challenge_v2.pdf",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/documentation?filePath=2024_IDA_challenge_v2.pdf",
+      "bytes": 231630,
+      "sha256": "b4261fe713811c9f3c02fe95d01b56f756c181ebec7b1277df36f7fdaeffb87f",
+      "verified_at_utc": "2026-09-27T23:04:48.246188+00:00"
+    },
+    {
+      "filename": "train_operational_readouts.csv",
+      "relative_path": "raw\\train_operational_readouts.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=train_operational_readouts.csv",
+      "bytes": 1219209878,
+      "sha256": "e01cb0bd87dfab4c9dbad215d51d81282fc0d413be96d6f819ea872fb7a3c715",
+      "verified_at_utc": "2026-09-27T23:07:38.965339+00:00"
+    },
+    {
+      "filename": "train_tte.csv",
+      "relative_path": "raw\\train_tte.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=train_tte.csv",
+      "bytes": 345412,
+      "sha256": "d8c2379ed7c95a575dd869730b2b3b96d660317f49e57de300518ff3b08d53a5",
+      "verified_at_utc": "2026-09-27T23:04:50.351605+00:00"
+    },
+    {
+      "filename": "train_specifications.csv",
+      "relative_path": "raw\\train_specifications.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=train_specifications.csv",
+      "bytes": 1081118,
+      "sha256": "47cc9a67aee19d5e2ee8620fe8e467490b2125bacc7787ce781ce9f3c1f0c38f",
+      "verified_at_utc": "2026-09-27T23:04:52.378753+00:00"
+    },
+    {
+      "filename": "validation_operational_readouts.csv",
+      "relative_path": "raw\\validation_operational_readouts.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=validation_operational_readouts.csv",
+      "bytes": 215593159,
+      "sha256": "1e1597eec866588c2ad95eb923555ad719c64b3697d9140f9cec6809349809af",
+      "verified_at_utc": "2026-09-27T23:05:47.416731+00:00"
+    },
+    {
+      "filename": "validation_labels.csv",
+      "relative_path": "raw\\validation_labels.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=validation_labels.csv",
+      "bytes": 38742,
+      "sha256": "ad876c95c3696f4cfca2d76212ad6bb3cac6b2d2950a4aeaf218ee8b1548d08c",
+      "verified_at_utc": "2026-09-27T23:04:55.219685+00:00"
+    },
+    {
+      "filename": "validation_specifications.csv",
+      "relative_path": "raw\\validation_specifications.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=validation_specifications.csv",
+      "bytes": 231765,
+      "sha256": "a31e832846538dd7a1829108b69420d9377dcd05d6446d8ac1270a974fc58ae2",
+      "verified_at_utc": "2026-09-27T23:04:57.917405+00:00"
+    },
+    {
+      "filename": "test_operational_readouts.csv",
+      "relative_path": "raw\\test_operational_readouts.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=test_operational_readouts.csv",
+      "bytes": 214897259,
+      "sha256": "81f2709cd339e0ff561f5fd3188d7f431680e32400bd788814880d7759615ba1",
+      "verified_at_utc": "2026-09-27T23:05:55.967752+00:00"
+    },
+    {
+      "filename": "test_labels.csv",
+      "relative_path": "raw\\test_labels.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=test_labels.csv",
+      "bytes": 38682,
+      "sha256": "60f923051d4ba1bef4c81166cf9e8ca01daf3b7a29c73016c6f48a23dcfa0223",
+      "verified_at_utc": "2026-09-27T23:05:51.474376+00:00"
+    },
+    {
+      "filename": "test_specifications.csv",
+      "relative_path": "raw\\test_specifications.csv",
+      "url": "https://api.researchdata.se/dataset/2024-34/3/file/data?filePath=test_specifications.csv",
+      "bytes": 231658,
+      "sha256": "40ac8a111f6d5b416107ec1786f639766ecf1293a1c9c0c0dbf24f14c1c5d0e7",
+      "verified_at_utc": "2026-09-27T23:05:55.888755+00:00"
+    }
+  ],
+  "test_labels": "Downloaded as opaque bytes; not parsed before freeze."
+}

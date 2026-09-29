@@ -1,0 +1,23 @@
+{
+  "all_checks_passed": true,
+  "snapshots_checked": 7801,
+  "features_per_snapshot": 26,
+  "future_mutation_checks": 100,
+  "orders_checked": 5406,
+  "open_orders": 4,
+  "ongoing_downtime": 0,
+  "source_of_truth": "resolution_code == Part Replacement at resolved_on",
+  "checks": [
+    "keys and hierarchy",
+    "age and timestamps",
+    "lifecycle",
+    "downtime arithmetic",
+    "strict historical feature availability",
+    "future resolution target",
+    "terminal instances",
+    "weekly cadence",
+    "complete follow-up",
+    "temporal embargo",
+    "machine status transitions"
+  ]
+}

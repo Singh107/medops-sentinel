@@ -1,0 +1,14 @@
+{
+  "rows": 3515,
+  "positive_rate": 0.4549075391180654,
+  "adjacent_feature_correlation": {
+    "errors_last_7_days": 0.5022554741425941,
+    "errors_last_30_days": 0.9523941332825319,
+    "errors_last_90_days": 0.999778242805372,
+    "critical_errors_30d": 0.9583289686590327,
+    "previous_service_count": 1.0,
+    "unresolved_problem_count": 0.998136297578012,
+    "recurring_same_problem_count": 0.9789011145505977
+  },
+  "median_gap_days": 2.75
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "MedOps owned source, documentation, generated CSV/JSON and SQLite; dependencies excluded",
+  "provenance": "Only local deterministic generators and controlled synthetic templates; no external datasets, records, APIs or text sources",
+  "findings": "Preexisting product-like model labels replaced with SIM-MODEL identifiers; no confirmed proprietary record found. Legacy generated telemetry identifiers explicitly prefixed SIM-LEGACY.",
+  "legacy_files_updated": [
+    "ml\\generate_data.py",
+    "data\\maintenance.csv",
+    "data\\telemetry.csv",
+    "data\\telemetry_features.csv"
+  ],
+  "obsolete_export_removed": "data/service_events.csv",
+  "limitations": "Pattern/provenance review cannot prove that every generic phrase or fictional label has never appeared in a real record.",
+  "final_pattern_scan": "No matches in owned source/docs/generated text for supplied company/platform references or retired product-like model labels.",
+  "template_check": "All non-null generated subject/description/investigation/resolution text begins Synthetic."
+}

@@ -1,0 +1,8 @@
+{
+  "all_training_targets_independently_checked": 18630,
+  "unique_random_cutoffs_checked": 23550,
+  "actual_vehicle_future_mutation_checks": 10,
+  "feature_schemas_equal": true,
+  "split_vehicle_ids_disjoint": true,
+  "status": "passed"
+}

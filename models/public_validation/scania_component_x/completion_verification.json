@@ -1,0 +1,11 @@
+{
+  "frozen_hashes": "all match",
+  "validation_prediction_replay_max_absolute_errors": {
+    "prevalence_baseline": 2.7755575615628914e-17,
+    "logistic_regression": 1.1102230246251565e-16,
+    "random_forest": 1.3877787807814457e-16
+  },
+  "test_evaluator_invocations": 1,
+  "test_retraining_or_tuning": false,
+  "individual_test_labels_read_before_freeze": false
+}

@@ -1,0 +1,11 @@
+{
+  "split": "test",
+  "samples": 5045,
+  "unique_vehicles": 5045,
+  "excluded_unknown_or_terminal": 0,
+  "excluded_vehicle_ids": [],
+  "numeric_features": 219,
+  "categorical_features": 8,
+  "positive_samples": null,
+  "prevalence": null
+}

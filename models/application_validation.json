@@ -1,0 +1,20 @@
+{
+  "http_get_endpoints": {
+    "/health": 200,
+    "/api/overview": 200,
+    "/api/machines": 200,
+    "/api/components": 200,
+    "/api/components/SUB-SIM-0001": 200,
+    "/api/components/SUB-SIM-0001/events": 200,
+    "/api/components/SUB-SIM-0001/risk": 200,
+    "/api/analytics": 200,
+    "/api/model/metrics": 200
+  },
+  "frontend_http_status": 200,
+  "saved_pipeline_csv_sqlite_api_consistent": true,
+  "normalized_schema_and_derived_replacement_flags": true,
+  "reseed_route": "orchestration tested with subprocess mocks; generation/training/reseed executed separately",
+  "production_build": "passed",
+  "browser_runtime": "blocked: browser-control inventory has no available browsers",
+  "mealmind": "no processes or ports modified; only verified MedOps backend restarted"
+}

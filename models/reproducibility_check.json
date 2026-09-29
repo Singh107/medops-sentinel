@@ -1,0 +1,5 @@
+{
+  "machines": "reproducible within numeric CSV round-trip precision",
+  "components": "reproducible within numeric CSV round-trip precision",
+  "work_orders": "reproducible within numeric CSV round-trip precision"
+}

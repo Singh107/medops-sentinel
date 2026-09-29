@@ -1,0 +1,8 @@
+{
+  "data/machines.csv": "793562343ea36cfa1a098d8d15ca89cc0e1ea060c4d4dcc97787fbf058339cef",
+  "data/components.csv": "d796ae0553e703f1b12c871ebe98a79c80d1d7e8a42ff53ab99c70011aba8d48",
+  "data/work_orders.csv": "96edbe8b7ed267a2cb22dba7bd23cc25850ea712fcf02800ca7166bbae0757ae",
+  "data/component_snapshots.csv": "b502ab95810eebf12f4ebec24c7159bd1fe06ecf4d5c817a8bf5c42f2fc1913c",
+  "models/component_model.joblib": "0d05a0a7a2b4128ba45737fa8bc111ea6a3e5ae139c8980af989cf197eb245ff",
+  "models/component_metrics.json": "720b906b813ad75890bb9cea202953c458286ffc6ca255ab110c9158478a5f9c"
+}
