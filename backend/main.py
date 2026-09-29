@@ -1,13 +1,11 @@
 from __future__ import annotations
 
-from pathlib import Path
-from typing import Literal
+import os
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 
-from backend.database.db import get_connection, init_db, seed_database
+from backend.database.db import init_db, seed_database
 from backend.services.component_service import (
     get_analytics,
     get_machines,
@@ -22,9 +20,9 @@ from backend.services.component_service import (
 app = FastAPI(title="MedOps Sentinel API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_origins=[origin.strip() for origin in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",") if origin.strip()],
+    allow_credentials=False,
+    allow_methods=["GET"],
     allow_headers=["*"],
 )
 
@@ -92,16 +90,4 @@ def model_metrics() -> dict:
     return get_model_metrics()
 
 
-class SeedPayload(BaseModel):
-    seed: Literal[303] = 303
-
-
-@app.post("/api/seed")
-def seed_database_endpoint(payload: SeedPayload) -> dict:
-    import subprocess
-    import sys
-    subprocess.run([sys.executable, "-m", "ml.generate_service_data"], cwd=str(Path(__file__).resolve().parents[1]), check=True)
-    subprocess.run([sys.executable, "-m", "ml.component_model"], cwd=str(Path(__file__).resolve().parents[1]), check=True)
-    init_db()
-    seed_database()
-    return {"status": "seeded", "seed": payload.seed}
+# Public demo is read-only. Research generation/training remains CLI-only.
